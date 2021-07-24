@@ -1,26 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import { MenuWrapper } from './styles/MenuWrapper';
+import Link from '../Link';
 
 export default function Menu({ isToggleActive }) {
   return (
     <MenuWrapper isToggleActive={isToggleActive}>
       <MenuWrapper.MenuList>
         <MenuWrapper.MenuListItem>
-          <MenuWrapper.MenuLink href="#home">Home</MenuWrapper.MenuLink>
+          <Link href="#home">Home</Link>
         </MenuWrapper.MenuListItem>
 
         <MenuWrapper.MenuListItem>
-          <MenuWrapper.MenuLink href="#skills">Skills</MenuWrapper.MenuLink>
+          <Link href="#skills">Skills</Link>
         </MenuWrapper.MenuListItem>
 
         <MenuWrapper.MenuListItem>
-          <MenuWrapper.MenuLink href="#projetos">Projetos</MenuWrapper.MenuLink>
+          <Link href="#projetos">Projetos</Link>
         </MenuWrapper.MenuListItem>
 
         <MenuWrapper.MenuListItem>
-          <MenuWrapper.MenuLink href="#contato">Contato</MenuWrapper.MenuLink>
+          <Link href="#contato">Contato</Link>
         </MenuWrapper.MenuListItem>
 
       </MenuWrapper.MenuList>

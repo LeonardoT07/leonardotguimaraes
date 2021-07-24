@@ -44,14 +44,3 @@ MenuWrapper.MenuListItem = styled.li`
     margin-bottom: 20px;
   }
 `;
-
-MenuWrapper.MenuLink = styled.a`
-  font-size: 30px;
-  font-weight: 700;
-  color: ${({ theme }) => theme.dark.color.primary};
-  text-decoration: none;
-
-  &:hover {
-    color: ${({ theme }) => theme.dark.color.contrast};
-  }
-`;

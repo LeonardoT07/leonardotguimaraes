@@ -1,3 +1,5 @@
+import { typographyVariants } from './typographyVariants';
+
 export const dark = {
   color: {
     primary: '#ffffff',
@@ -8,7 +10,6 @@ export const dark = {
     primary: '#181818',
     secondary: '#151515',
     contrast: '#383838',
-
   },
 };
 
@@ -27,6 +28,7 @@ export const zIndex = {
 
 export default {
   dark,
+  typographyVariants,
   breakpoints,
   zIndex,
   fontFamily: '\'Poppins\', sans-serif',
